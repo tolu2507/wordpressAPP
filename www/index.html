@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data: https://tolulopebamisile.000webhostapp.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Trendz app</title>
+</head>
+
+<body>
+    <div class="app-content">
+        <div class="d-flex justify-content-center pt-2" id="spinner">
+            <div class="spinner-border text-primary"></div>
+        </div>
+        <div class="container pt-2" id="mainDiv">
+        </div>
+        <div class="container">
+            <h2>Submit a post</h2>
+            <form class="was-validated">
+                <div class="form-group">
+                    <label for="title">Title:</label>
+                    <input type="text" class="formcontrol" id="title"
+                        placeholder="title of post> Please fill out this field." name="title" required />
+                </div>
+                <div class="form-group">
+                    <label for="content">Content:</label>
+                    <textarea placeholder="Please fill out this field." name="content" id="content" cols="30" rows="3"
+                        class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js" cd hello></script>
+</body>
+
+</html>

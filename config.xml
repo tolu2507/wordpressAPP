@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.hello" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Trendz app</name>
+    <description>Sample Apache Cordova App</description>
+    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
+        Apache Cordova Team
+    </author>
+    <platform name="android">
+    <Access-Control-Allow-Methods origin="POST, PUT, PATCH, GET, DELETE, OPTIONS" />
+    <Access-Control-Allow-Origin origin="https://tolulopebamisile.000webhostapp.com/" /> 
+    <Access-Control-Allow-Origin origin="https://tolulopebamisile.000webhostapp.com/wp-json/wp/v2/posts" />   
+    <access origin="https://tolulopebamisile.000webhostapp.com/wp-json/wp/v2/posts" />
+    <access origin="https://tolulopebamisile.000webhostapp.com/" />
+    <allow-navigation href="https://tolulopebamisile.000webhostapp.com/*" />
+    <allow-navigation href="*://*.tolulopebamisile.000webhostapp.com/*" />
+    </platform>
+    <platform name="browser">
+    <Access-Control-Allow-Methods origin="POST, PUT, PATCH, GET, DELETE, OPTIONS" />
+    <Access-Control-Allow-Origin origin="https://tolulopebamisile.000webhostapp.com/" /> 
+    <Access-Control-Allow-Origin origin="https://tolulopebamisile.000webhostapp.com/wp-json/wp/v2/posts" />   
+    <access origin="https://tolulopebamisile.000webhostapp.com/wp-json/wp/v2/posts" />
+    <access origin="https://tolulopebamisile.000webhostapp.com/" />
+    <allow-navigation href="https://tolulopebamisile.000webhostapp.com/*" />
+    <allow-navigation href="*://*.tolulopebamisile.000webhostapp.com/*" />
+    </platform>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>
